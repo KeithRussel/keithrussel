@@ -1,3 +1,3 @@
 ## Welcome to my Portfolio site!
 
-## Soon.. Work In Progress..
+## Interested in Reactjs or MERN projects/job.
