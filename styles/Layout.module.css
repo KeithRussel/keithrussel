@@ -7,14 +7,18 @@
   align-items: center;
 }
 
-.main {
+.row {
+  display: flex;
+}
+
+/* .main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .footer {
   width: 100%;
