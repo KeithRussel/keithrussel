@@ -1,0 +1,29 @@
+#colors {
+  --primary-color: #1178b3;
+  --link-color: #489efc;
+  --light-color: #f4f4f4;
+  --danger-color: #271819;
+  --success-color: #28a745;
+}
+
+.header {
+  background-color: var(--primary-color);
+}
+
+.wrapper {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.headerNav {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  align-self: center;
+}
+
+.headerNav li {
+  padding: 0 1rem;
+  color: var(--light-color);
+}
