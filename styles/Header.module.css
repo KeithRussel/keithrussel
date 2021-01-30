@@ -27,3 +27,7 @@
   padding: 0 1rem;
   color: var(--light-color);
 }
+
+.headerNav li a {
+  color: var(--light-color);
+}
