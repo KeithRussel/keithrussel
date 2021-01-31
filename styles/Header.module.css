@@ -31,3 +31,37 @@
 .headerNav li a {
   color: var(--light-color);
 }
+
+.mobileNav {
+  margin-left: auto;
+  align-self: center;
+  color: #f4f4f4;
+}
+
+.mobileHeaderNav {
+  background-color: black;
+  height: 100vh;
+  width: 25%;
+  z-index: 9999;
+  position: absolute;
+}
+
+@media (max-width: 1400px) {
+  .headerNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: block;
+  }
+}
+
+@media (min-width: 1401px) {
+  .headerNav {
+    display: flex;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+}
