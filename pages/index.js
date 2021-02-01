@@ -17,7 +17,7 @@ function HomePage() {
         </div>
 
         <div className={styles.details}>
-          <h2>Personal Details:</h2>
+          <h1>Personal Details:</h1>
           <div className={styles.row}>
             <h4>Name:</h4> Russel Maniacop
           </div>
@@ -56,15 +56,15 @@ function HomePage() {
             <div className={styles.exp}>
               <p>
                 Code Unicorn - <span>Entry Web Developer (2016-2017)</span>
-                <div>Urdaneta City, Pangasinan</div>
+                <p>Urdaneta City, Pangasinan</p>
               </p>
               <p>
                 Pixelhub - <span>Jr. Web Developer (2017-2018)</span>
-                <div>Dagupan City, Pangasinan</div>
+                <p>Dagupan City, Pangasinan</p>
               </p>
               <p>
                 Xin Marketing - <span>Project Specialist (2018-2019)</span>
-                <div>Taguig City, BGC</div>
+                <p>Taguig City, BGC</p>
               </p>
             </div>
           </div>
@@ -75,68 +75,107 @@ function HomePage() {
         <div>
           <h1>Portfolio</h1>
           <div className={styles.portfolioImg}>
-            <div>
+            <div className={styles.border}>
               <Image
-                src='/uploads/sample.jpg'
-                alt='myimg'
+                src='/uploads/brgyforum.png'
+                alt='brgyforum portfolio site'
                 width={500}
                 height={500}
               />
-              <Link href='/'>
-                <a>
+              <Link href='https://murmuring-everglades-39775.herokuapp.com/'>
+                <a target='_blank'>
+                  <h4>Brgy Forum</h4>
+                </a>
+              </Link>
+            </div>
+            <div className={styles.border}>
+              <Image
+                src='/uploads/shopit.png'
+                alt='shopit portfolio site'
+                width={500}
+                height={500}
+              />
+              <Link href='https://shopitapp.herokuapp.com/'>
+                <a target='_blank'>
+                  <h4>Shopit</h4>
+                </a>
+              </Link>
+            </div>
+            <div className={styles.border}>
+              <Image
+                src='/uploads/studentmanager.png'
+                alt='studentmanager portfolio site'
+                width={500}
+                height={500}
+              />
+              <Link href='https://intense-depths-40828.herokuapp.com/'>
+                <a target='_blank'>
+                  <h4>Student Manager</h4>
+                </a>
+              </Link>
+            </div>
+            <div className={styles.border}>
+              <Image
+                src='/uploads/pangasinan.jpg'
+                alt='pangasinan portfolio site'
+                width={500}
+                height={500}
+              />
+              <Link href='https://www.pangasinan.gov.ph/'>
+                <a target='_blank'>
+                  <h4>Pangasinan</h4>
+                </a>
+              </Link>
+            </div>
+            <div className={styles.border}>
+              <Image
+                src='/uploads/watergate.jpg'
+                alt='watergate portfolio site'
+                width={500}
+                height={500}
+              />
+              <Link href='https://www.watergatehotelbutuan.ph/'>
+                <a target='_blank'>
                   <h4>Watergate</h4>
                 </a>
               </Link>
             </div>
-            <div>
+            <div className={styles.border}>
               <Image
-                src='/uploads/sample.jpg'
-                alt='myimg'
+                src='/uploads/weatherapp.png'
+                alt='weatherapp portfolio site'
                 width={500}
                 height={500}
               />
-              <Link href='/'>
-                <a>
-                  <h4>Watergate</h4>
+              <Link href='https://weathertrackerapp.netlify.app/'>
+                <a target='_blank'>
+                  <h4>Weatherapp</h4>
                 </a>
               </Link>
             </div>
-            <div>
+            <div className={styles.border}>
               <Image
-                src='/uploads/sample.jpg'
-                alt='myimg'
+                src='/uploads/pokedexplorer.png'
+                alt='pokedex portfolio site'
                 width={500}
                 height={500}
               />
-              <Link href='/'>
-                <a>
-                  <h4>Watergate</h4>
+              <Link href='https://p0kedexplorer.netlify.app/'>
+                <a target='_blank'>
+                  <h4>Pokedexplorer</h4>
                 </a>
               </Link>
             </div>
-            <div>
+            <div className={styles.border}>
               <Image
-                src='/uploads/sample.jpg'
-                alt='myimg'
+                src='/uploads/laundrylog.png'
+                alt='laundrylog portfolio site'
                 width={500}
                 height={500}
               />
-              <Link href='/'>
-                <a>
-                  <h4>Watergate</h4>
-                </a>
-              </Link>
-            </div>
-            <div>
-              <Image
-                src='/uploads/sample.jpg'
-                alt='myimg'
-                width={500}
-                height={500}
-              />
-              <Link href='/'>
-                <a>
-                  <h4>Watergate</h4>
+              <Link href='https://desolate-shelf-62199.herokuapp.com/'>
+                <a target='_blank'>
+                  <h4>Laundry log</h4>
                 </a>
               </Link>
             </div>
