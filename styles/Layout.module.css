@@ -101,9 +101,9 @@
   margin: 15px;
 }
 
-/* .portfolioImg img {
-  margin: 0 0.75rem !important;
-} */
+.portfolioImg .border img {
+  object-fit: cover;
+}
 
 .portfolioImg h4 {
   text-align: center;
