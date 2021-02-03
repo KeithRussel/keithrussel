@@ -1,3 +1,5 @@
 # Welcome to my Portfolio site!
 
-Interested in Reactjs or MERN projects/job.
+I build this for my personal portfolio and blog as well.
+Visit [KeithRussel](https://murmuring-everglades-39775.herokuapp.com/) to check my skills.
+Thankyou!
