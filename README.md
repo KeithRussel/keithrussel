@@ -1,5 +1,5 @@
 # Welcome to my Portfolio site!
 
-I build this for my personal portfolio and blog as well.
+I built this for my personal portfolio and blog as well.
 Visit [KeithRussel](https://murmuring-everglades-39775.herokuapp.com/) to check my skills.
 Thankyou!
