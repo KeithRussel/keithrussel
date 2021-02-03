@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/Blog.module.css';
+import Image from 'next/image';
 
 const { CONTENT_API_KEY, BLOG_URL } = process.env;
 
@@ -9,11 +10,11 @@ const { CONTENT_API_KEY, BLOG_URL } = process.env;
 
 export const getStaticProps = async ({ params }) => {
   const res = await fetch(
-    `${BLOG_URL}/ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt`
+    `${BLOG_URL}/ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt,feature_image`
   );
   const posts = await res.json();
 
-  // console.log(res);
+  console.log(posts);
 
   return {
     props: { posts },
@@ -24,7 +25,24 @@ const blog = ({ posts }) => {
   return (
     <div className={styles.container}>
       <h1>Works In Progress implementing ghost backend cms</h1>
-      <ul>
+      <div className={styles.gridColumns}>
+        {posts.posts.map((post, index) => {
+          return (
+            <div key={post.slug} className={styles.post}>
+              <Image
+                src={post.feature_image}
+                alt={post.title}
+                width={500}
+                height={500}
+              />
+              <Link href='/post/[slug]' as={`/post/${post.slug}`}>
+                <a>{post.title}</a>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+      {/* <ul>
         {posts.posts.map((post, index) => {
           return (
             <li key={post.slug}>
@@ -34,7 +52,7 @@ const blog = ({ posts }) => {
             </li>
           );
         })}
-      </ul>
+      </ul> */}
     </div>
   );
 };

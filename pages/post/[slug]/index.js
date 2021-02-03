@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import styles from '../../../styles/Blog.module.css';
 
 const { BLOG_URL, CONTENT_API_KEY } = process.env;
 
@@ -19,7 +20,7 @@ export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug);
   return {
     props: { post },
-    revalidate: 10,
+    revalidate: 10, // run at most 1 request to the ghost CMS in the backend
   };
 };
 
@@ -36,7 +37,9 @@ export const getStaticPaths = () => {
 };
 
 const post = ({ post }) => {
-  console.log(post);
+  console.log({ post });
+
+  const [enableLoadComments, setEnableLoadComments] = useState(true);
 
   const router = useRouter();
 
@@ -44,12 +47,41 @@ const post = ({ post }) => {
     return <h1>Loading...</h1>;
   }
 
+  function loadComments() {
+    // load disqus
+    setEnableLoadComments(false);
+
+    window.disqus_config = function () {
+      this.page.url = window.location.href; // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = post.slug; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    const script = document.createElement('script');
+    script.src = 'https://portfolio-nextjs.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', Date.now().toString());
+
+    document.body.appendChild(script);
+  }
+
   return (
-    <div>
-      <Link href='/blog'>
-        <a>Go Back</a>
-      </Link>
-      <h1>This is post</h1>
+    <div className={styles.singlePost}>
+      <div>
+        <Link href='/blog'>
+          <button className={styles.goback}>Go Back</button>
+        </Link>
+      </div>
+      <h1>{post.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+
+      {enableLoadComments && (
+        <div className={styles.textCenter}>
+          <button className={styles.goback} onClick={loadComments}>
+            Load Comments
+          </button>
+        </div>
+      )}
+
+      <div id='disqus_thread'></div>
     </div>
   );
 };
