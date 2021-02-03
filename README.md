@@ -1,3 +1,5 @@
 # Welcome to my Portfolio site!
 
-Interested in Reactjs or MERN projects/job.
+I built this for my personal portfolio and blog as well.
+Visit [KeithRussel](https://keithrussel.vercel.app/) to check my skills.
+Thankyou!
