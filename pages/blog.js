@@ -24,7 +24,7 @@ export const getStaticProps = async ({ params }) => {
 const blog = ({ posts }) => {
   return (
     <div className={styles.container}>
-      <h1>Works In Progress implementing ghost backend cms</h1>
+      <h1>Blog Posts</h1>
       <div className={styles.gridColumns}>
         {posts.posts.map((post, index) => {
           return (
@@ -42,17 +42,6 @@ const blog = ({ posts }) => {
           );
         })}
       </div>
-      {/* <ul>
-        {posts.posts.map((post, index) => {
-          return (
-            <li key={post.slug}>
-              <Link href='/post/[slug]' as={`/post/${post.slug}`}>
-                <a>{post.title}</a>
-              </Link>
-            </li>
-          );
-        })}
-      </ul> */}
     </div>
   );
 };
