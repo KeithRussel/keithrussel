@@ -61,7 +61,8 @@ function HomePage() {
               <h4>Experience:</h4>
               <div className={styles.exp}>
                 <p>
-                  Code Unicorn - <span>Entry Web Developer (2016-2017)</span>
+                  Fresh Design Studio -{' '}
+                  <span>Entry Web Developer (2016-2017)</span>
                   <p>Urdaneta City, Pangasinan</p>
                 </p>
                 <p>
