@@ -65,7 +65,7 @@
   flex-wrap: wrap;
 }
 
-.row ul li {
+/* .row ul li {
   padding: 0 0.4rem;
 }
 
@@ -75,7 +75,7 @@
 
 .row ul li:last-child {
   padding-right: 0;
-}
+} */
 
 .row .exp p {
   margin: 0 0 1rem 0;

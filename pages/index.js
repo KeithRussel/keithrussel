@@ -1,7 +1,10 @@
+import React, { useRef, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Layout.module.css';
+import InterestList from '../components/InterestList';
+import StackList from '../components/StacksList';
 
 function HomePage() {
   return (
@@ -28,35 +31,16 @@ function HomePage() {
               <h4>Name:</h4> Russel Maniacop
             </div>
             <div className={styles.row}>
+              <h4>Email:</h4>{' '}
+              <Link href='mailto:keithmaniacop@gmail.com'>
+                <a target='_blank'>keithmaniacop@gmail.com</a>
+              </Link>
+            </div>
+            <div className={styles.row}>
               <h4>Graduated From:</h4> University of Luzon
             </div>
-            <div className={styles.row}>
-              <h4>Interests:</h4>{' '}
-              <ul>
-                <li>Youtube tutorials, </li>
-                <li>Chess, </li>
-                <li>Dota2, </li>
-                <li>Coding, </li>
-                <li>Cryptocurrency trading </li>
-              </ul>
-            </div>
-            <div className={styles.row}>
-              <h4>Web Stacks:</h4>
-              <div>
-                <ul>
-                  <li>HTML, </li>
-                  <li>CSS/SASS, </li>
-                  <li>Javascript, </li>
-                  <li>PHP, </li>
-                  <li>Wordpress, </li>
-                  <li>Bootstrap, </li>
-                  <li>Reactjs, </li>
-                  <li>Nodejs, </li>
-                  <li>Expressjs, </li>
-                  <li>Redux</li>
-                </ul>
-              </div>
-            </div>
+            <InterestList />
+            <StackList />
             <div className={styles.row}>
               <h4>Experience:</h4>
               <div className={styles.exp}>
