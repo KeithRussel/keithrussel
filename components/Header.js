@@ -61,6 +61,12 @@ const Header = () => {
           </li>
           <li>
             <FontAwesomeIcon icon={faBook} />
+            <Link href='/portfolio'>
+              <a>Portfolio</a>
+            </Link>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faBook} />
             <Link href='/blog'>
               <a>Blog</a>
             </Link>
@@ -74,6 +80,11 @@ const Header = () => {
           <li>
             <Link href='/'>
               <a>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/portfolio'>
+              <a>Portfolio</a>
             </Link>
           </li>
           <li>
