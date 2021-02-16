@@ -32,10 +32,10 @@ function HomePage() {
         <h1>Stacks</h1>
         <div className={styles.dGrid}>
           <Image
-            src='/uploads/reactjs.png'
+            src='https://img.icons8.com/color/480/000000/npm.png'
             alt='reactjs'
-            width={500}
-            height={500}
+            width={250}
+            height={250}
           />
           <Image
             src='/uploads/reactjs.png'
