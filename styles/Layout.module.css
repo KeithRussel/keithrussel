@@ -21,11 +21,41 @@
   margin: 0 0 0.7rem 0;
 }
 
+.test {
+  background-color: black;
+}
+
 .hero {
-  margin: 70px 0 0 0;
+  margin: 69px 0 0 0;
   padding: 1rem;
-  background-color: #eaf4fd;
+  background-color: black;
   text-align: center;
+  /* background-image: url('/uploads/ss.png'); */
+}
+
+.hero .p1 {
+  padding: 1rem;
+}
+
+.hero h1 span {
+  color: #42bbdf;
+}
+
+.hero h1,
+.hero p {
+  color: #fff;
+}
+
+.bgImg {
+  /* background-image: url('/uploads/ss.png'); */
+  background: url(/uploads/ss.png) 50% / cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  position: fixed;
+  width: 100%;
+  height: 43%;
+  top: 0;
+  opacity: 10%;
 }
 
 .hero img {
@@ -69,22 +99,20 @@
   flex-wrap: wrap;
 }
 
+#stacks {
+  background-color: #fff;
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
 .dGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-/* .row ul li {
-  padding: 0 0.4rem;
+.dGrid .py {
+  padding: 1rem !important;
 }
-
-.row ul li:first-child {
-  padding-left: 0;
-}
-
-.row ul li:last-child {
-  padding-right: 0;
-} */
 
 .row .exp p {
   margin: 0 0 1rem 0;
@@ -104,7 +132,7 @@
 
 .portfolioImg {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 
@@ -128,6 +156,10 @@
 
 .portfolioImg a {
   color: black;
+}
+
+#tools {
+  background-color: #eaf4fd;
 }
 
 .footer {
@@ -252,5 +284,15 @@
 
   .portfolioImg .border {
     margin: 0 0 1rem;
+  }
+
+  .bgImg {
+    height: 60%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .dGrid {
+    padding: 0 5rem;
   }
 }

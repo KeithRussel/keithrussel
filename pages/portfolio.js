@@ -12,7 +12,7 @@ const portfolio = () => {
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <section id={styles.portfolio}>
-        <div>
+        <div className={styles.container}>
           <h1>Portfolio</h1>
           <div className={styles.portfolioImg}>
             <div className={styles.border}>

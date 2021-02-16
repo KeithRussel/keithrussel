@@ -65,23 +65,25 @@ const post = ({ post }) => {
 
   return (
     <div className={styles.singlePost}>
-      <div>
+      <div className={styles.mxAuto}>
         <Link href='/blog'>
           <button className={styles.goback}>Go Back</button>
         </Link>
       </div>
-      <h1>{post.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+      <div className={styles.container}>
+        <h1>{post.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
 
-      {enableLoadComments && (
-        <div className={styles.textCenter}>
-          <button className={styles.goback} onClick={loadComments}>
-            Load Comments
-          </button>
-        </div>
-      )}
+        {enableLoadComments && (
+          <div className={styles.textCenter}>
+            <button className={styles.goback} onClick={loadComments}>
+              Load Comments
+            </button>
+          </div>
+        )}
 
-      <div id='disqus_thread'></div>
+        <div id='disqus_thread'></div>
+      </div>
     </div>
   );
 };
