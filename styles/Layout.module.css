@@ -1,7 +1,3 @@
-/* .main {
-  margin: 70px 0 0 0;
-} */
-
 .container {
   padding: 0 0.5rem;
   display: flex;
@@ -21,13 +17,8 @@
   margin: 0 0 0.7rem 0;
 }
 
-.test {
-  background-color: black;
-}
-
 .hero {
   margin: 69px 0 0 0;
-  padding: 1rem;
   background-color: black;
   text-align: center;
   /* background-image: url('/uploads/ss.png'); */
@@ -47,10 +38,8 @@
 }
 
 .bgImg {
-  /* background-image: url('/uploads/ss.png'); */
   background: url(/uploads/ss.png) 50% / cover;
   background-repeat: no-repeat;
-  /* height: 100vh; */
   position: fixed;
   width: 100%;
   height: 43%;
@@ -99,6 +88,19 @@
   flex-wrap: wrap;
 }
 
+#stacks,
+#tools,
+#portfolio {
+  padding: 1rem 0;
+}
+
+#stacks h1,
+#tools h1,
+#portfolio h1 {
+  margin: 0;
+  text-align: center;
+}
+
 #stacks {
   background-color: #fff;
   position: relative;
@@ -124,10 +126,6 @@
 
 #portfolio {
   margin-top: 5rem;
-}
-
-#portfolio h1 {
-  text-align: center;
 }
 
 .portfolioImg {
@@ -287,7 +285,7 @@
   }
 
   .bgImg {
-    height: 60%;
+    height: 70%;
   }
 }
 
