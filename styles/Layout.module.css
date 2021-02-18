@@ -120,6 +120,26 @@
   padding: 1rem !important;
 }
 
+.stackBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1178b3;
+  font-size: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-weight: bold;
+  height: 100%;
+}
+
+.dNone {
+  display: none !important;
+}
+
+.dBlock {
+  display: block !important;
+}
+
 .row .exp p {
   margin: 0 0 1rem 0;
 }
