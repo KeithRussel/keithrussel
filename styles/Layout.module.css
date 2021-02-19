@@ -99,7 +99,8 @@
 
 #stacks h1,
 #tools h1,
-#portfolio h1 {
+#portfolio h1,
+#contact h1 {
   margin: 0;
   text-align: center;
 }
@@ -148,7 +149,8 @@
   border-bottom: 2px solid #0000002e;
 }
 
-#portfolio {
+#portfolio,
+#contact {
   margin-top: 5rem;
 }
 
