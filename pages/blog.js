@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import styles from '../styles/Blog.module.css';
 import Image from 'next/image';
 
@@ -23,26 +24,32 @@ export const getStaticProps = async ({ params }) => {
 
 const blog = ({ posts }) => {
   return (
-    <div className={styles.container}>
-      <h1>Blog Posts</h1>
-      <div className={styles.gridColumns}>
-        {posts.posts.map((post, index) => {
-          return (
-            <div key={post.slug} className={styles.post}>
-              <Image
-                src={post.feature_image}
-                alt={post.title}
-                width={500}
-                height={500}
-              />
-              <Link href='/post/[slug]' as={`/post/${post.slug}`}>
-                <a>{post.title}</a>
-              </Link>
-            </div>
-          );
-        })}
+    <>
+      <Head>
+        <title>Keith Russel | Blog</title>
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      </Head>
+      <div className={styles.container}>
+        <h1>Blog Posts</h1>
+        <div className={styles.gridColumns}>
+          {posts.posts.map((post, index) => {
+            return (
+              <div key={post.slug} className={styles.post}>
+                <Image
+                  src={post.feature_image}
+                  alt={post.title}
+                  width={500}
+                  height={500}
+                />
+                <Link href='/post/[slug]' as={`/post/${post.slug}`}>
+                  <a>{post.title}</a>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
