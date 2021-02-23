@@ -32,14 +32,14 @@ export default (req, res) => {
       });
 
       const mailOptions = {
-        from: `KEITHIPHONE5S <keithiphone5s@gmail.com>`,
-        to: `${process.env.EMAIL}`,
-        subject: `New mail from ${email}`,
+        from: `[${email}]`,
+        to: `<${process.env.EMAIL}>`,
+        subject: `Portfolio Site New mail from ${email}`,
         text: `
       ${name} wrote:
       ${text}
       `,
-        html: '<h1>Hello from gmail email using API</h1>',
+        html: `<p>${text}</p>`,
       };
 
       const result = await transport.sendMail(mailOptions);
