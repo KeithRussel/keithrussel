@@ -284,6 +284,15 @@
   height: 1em;
 }
 
+#contact div:nth-child(1) {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

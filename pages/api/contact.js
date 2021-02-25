@@ -43,7 +43,11 @@ export default (req, res) => {
       };
 
       const result = await transport.sendMail(mailOptions);
-      return result;
+
+      console.log(req.method);
+      if (result) {
+        res.send('success');
+      }
     } catch (error) {
       return error;
     }
