@@ -13,7 +13,7 @@ const contact = () => {
   const submitContact = async (event) => {
     event.preventDefault();
 
-    const res = await fetch('/api/contact', {
+    await fetch('/api/contact', {
       body: JSON.stringify({
         name: mailName,
         email: mailAddress,
@@ -26,6 +26,12 @@ const contact = () => {
       method: 'POST',
     }).then((res) => {
       console.log('Fetch: ', res);
+      if (res.status === 200) {
+        setMailName('');
+        setMailAddress('');
+        setMailText('');
+        alert('Message Sent');
+      }
       // res.status === 200 ? router.push('/success') : router.push('error');
     });
   };
