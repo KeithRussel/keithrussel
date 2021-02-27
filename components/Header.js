@@ -1,10 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Header.module.css';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { faBook } from '@fortawesome/free-solid-svg-icons';
+import {
+  faBars,
+  faTimes,
+  faHome,
+  faBook,
+  faBlog,
+  faAddressCard,
+} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function useOuterClick(callback) {
@@ -66,13 +70,13 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <FontAwesomeIcon icon={faBook} />
+            <FontAwesomeIcon icon={faBlog} />
             <Link href='/blog'>
               <a>Blog</a>
             </Link>
           </li>
           <li>
-            <FontAwesomeIcon icon={faBook} />
+            <FontAwesomeIcon icon={faAddressCard} />
             <Link href='/contact'>
               <a>Contact</a>
             </Link>

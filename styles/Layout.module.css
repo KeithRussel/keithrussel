@@ -70,7 +70,6 @@
 }
 
 .heroWrapper .details h2 {
-  /* margin-left: -1rem !important; */
   margin-bottom: 1rem;
 }
 
@@ -81,6 +80,27 @@
 
 .details h4 {
   margin: 0 0.5rem 0 0;
+}
+
+.hero ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.hero ul li a {
+  color: #fafafa;
+}
+
+.hero ul li a:hover {
+  color: #42bbdf;
+  transition: 0.6s;
+}
+
+.hero ul li:nth-child(2) {
+  padding: 0 1rem;
 }
 
 .row ul {
@@ -131,6 +151,7 @@
   color: #fff;
   font-weight: bold;
   height: 100%;
+  transition: 0.6s;
 }
 
 .dNone {
