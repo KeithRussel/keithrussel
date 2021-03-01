@@ -175,10 +175,39 @@
   margin-top: 5rem;
 }
 
+.border figure {
+  margin: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
 .portfolioImg {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+}
+
+.border figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .portfolioImg .border {
