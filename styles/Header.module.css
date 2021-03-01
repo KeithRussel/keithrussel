@@ -39,6 +39,32 @@
 
 .headerNav li a {
   color: var(--light-color);
+  position: relative;
+  font-weight: bold;
+  transition: all 2s;
+}
+
+.headerNav li a,
+.headerNav li a:after,
+.headerNav li a:before {
+  transition: all 0.5s;
+}
+
+.headerNav li a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.headerNav li a:hover::after {
+  width: 100%;
 }
 
 .mobileNav {
