@@ -1,0 +1,143 @@
+#colors {
+  --primary-color: #1178b3;
+  --link-color: #489efc;
+  --light-color: #f4f4f4;
+  --danger-color: #271819;
+  --success-color: #28a745;
+}
+
+.header {
+  background-color: var(--primary-color);
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.wrapper h2 {
+  color: #fff;
+}
+
+.headerNav {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  align-self: center;
+}
+
+.headerNav li {
+  padding: 0 1rem;
+  color: var(--light-color);
+}
+
+.headerNav li a {
+  color: var(--light-color);
+  position: relative;
+  font-weight: bold;
+  transition: all 2s;
+}
+
+.headerNav li a,
+.headerNav li a:after,
+.headerNav li a:before {
+  transition: all 0.5s;
+}
+
+.headerNav li a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.headerNav li a:hover::after {
+  width: 100%;
+}
+
+.mobileNav {
+  margin-left: auto;
+  align-self: center;
+  color: #f4f4f4;
+}
+
+.hide {
+  width: 0;
+  transition: width 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.hide ul {
+  display: none;
+}
+
+.mobileHeaderNav {
+  background-color: #01273eed;
+  height: 100vh;
+  width: 25%;
+  z-index: 9999;
+  position: fixed;
+  transition: width 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.mobileHeaderNav ul {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+.mobileHeaderNav ul li {
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.mobileHeaderNav ul li a {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 1400px) {
+  .headerNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: block;
+  }
+}
+
+@media (min-width: 1401px) {
+  .headerNav {
+    display: flex;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+
+  .mobileHeaderNav {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .mobileHeaderNav {
+    width: 50%;
+    transition: width 0.1s;
+    transition-timing-function: ease-in-out;
+  }
+}
