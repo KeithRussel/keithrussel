@@ -7,19 +7,19 @@ const portfolio = () => {
   const [state, setState] = useState([
     {
       title: "MK Javier",
-      url: "https://mkjavier.com/",
+      link: "https://mkjavier.com/",
       lists: ["NextJS", "ReactJS", "React Bootstrap", "SEO"],
       img: "/uploads/mkjavier_p.png",
     },
     {
       title: "Gmailnator Mobile App (Not on Playstore yet)",
-      url: "https://www.gmailnator.com/",
+      link: "https://www.gmailnator.com/",
       lists: ["React Native", "ReactJS", "Redux", "Axios"],
       img: "/uploads/gmailnator_p.png",
     },
     {
       title: "Shop It",
-      url: "https://shopitapp.herokuapp.com/",
+      link: "https://shopitapp.herokuapp.com/",
       lists: [
         "ExpressJS",
         "MongoDB",
@@ -35,13 +35,13 @@ const portfolio = () => {
     },
     {
       title: "Pangasinan",
-      url: "https://www.pangasinan.gov.ph/",
+      link: "https://www.pangasinan.gov.ph/",
       lists: ["Wordpress", "Sass", "PHP"],
       img: "/uploads/pangasinan_p.png",
     },
     {
       title: "Watergate",
-      url: "https://www.watergatehotelbutuan.ph/",
+      link: "https://www.watergatehotelbutuan.ph/",
       lists: ["Wordpress", "Sass", "PHP"],
       img: "/uploads/watergate_p.png",
     },

@@ -10,7 +10,7 @@ const portfolioItem = (props) => {
     <>
       <div className={styles.item} key={item.title}>
         <div className={styles.item_col}>
-          <Link href={item.url}>
+          <Link href={item.link}>
             <a target="_blank">
               <h1>{item.title}</h1>
             </a>
