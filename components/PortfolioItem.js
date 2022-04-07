@@ -3,8 +3,8 @@ import Image from "next/image";
 import styles from "../styles/Layout.module.css";
 import Link from "next/link";
 
-const portfolioItem = (props) => {
-  let { item } = props;
+const PortfolioItem = ({ item }) => {
+  // let { item } = props;
 
   return (
     <>
@@ -38,4 +38,4 @@ const portfolioItem = (props) => {
   );
 };
 
-export default portfolioItem;
+export default PortfolioItem;

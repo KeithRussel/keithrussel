@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import styles from '../../../styles/Blog.module.css';
+import React, { useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import styles from "../../../styles/Blog.module.css";
 
 const { BLOG_URL, CONTENT_API_KEY } = process.env;
 
@@ -37,7 +37,7 @@ export const getStaticPaths = () => {
 };
 
 const post = ({ post }) => {
-  console.log({ post });
+  // console.log({ post });
 
   const [enableLoadComments, setEnableLoadComments] = useState(true);
 
@@ -56,9 +56,9 @@ const post = ({ post }) => {
       this.page.identifier = post.slug; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 
-    const script = document.createElement('script');
-    script.src = 'https://portfolio-nextjs.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', Date.now().toString());
+    const script = document.createElement("script");
+    script.src = "https://portfolio-nextjs.disqus.com/embed.js";
+    script.setAttribute("data-timestamp", Date.now().toString());
 
     document.body.appendChild(script);
   }
@@ -66,7 +66,7 @@ const post = ({ post }) => {
   return (
     <div className={styles.singlePost}>
       <div className={styles.mxAuto}>
-        <Link href='/blog'>
+        <Link href="/blog">
           <button className={styles.goback}>Go Back</button>
         </Link>
       </div>
@@ -82,7 +82,7 @@ const post = ({ post }) => {
           </div>
         )}
 
-        <div id='disqus_thread'></div>
+        <div id="disqus_thread"></div>
       </div>
     </div>
   );

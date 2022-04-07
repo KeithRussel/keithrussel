@@ -1,0 +1,66 @@
+import React, { useState } from "react";
+import styles from "../styles/Layout.module.css";
+import PortfolioItem from "./PortfolioItem";
+
+const Portfolios = () => {
+  const [state, setState] = useState([
+    {
+      title: "MK Javier",
+      link: "https://mkjavier.com/",
+      lists: ["NextJS", "ReactJS", "React Bootstrap", "SEO"],
+      img: "/uploads/mkjavier_p.png",
+    },
+    {
+      title: "Gmailnator Mobile App (Not on Playstore yet)",
+      link: "https://www.gmailnator.com/",
+      lists: ["React Native", "ReactJS", "Redux", "Axios"],
+      img: "/uploads/gmailnator_p.png",
+    },
+    {
+      title: "Shop It",
+      link: "https://shopitapp.herokuapp.com/",
+      lists: [
+        "ExpressJS",
+        "MongoDB",
+        "ReactJS",
+        "NodeJS",
+        "JWT auth",
+        "Redux",
+        "React Bootstrap",
+        "React Paypal",
+        "Multer",
+      ],
+      img: "/uploads/shopit.png",
+    },
+    {
+      title: "Pangasinan",
+      link: "https://www.pangasinan.gov.ph/",
+      lists: ["Wordpress", "Sass", "PHP"],
+      img: "/uploads/pangasinan_p.png",
+    },
+    {
+      title: "Watergate",
+      link: "https://www.watergatehotelbutuan.ph/",
+      lists: ["Wordpress", "Sass", "PHP"],
+      img: "/uploads/watergate_p.png",
+    },
+  ]);
+  return (
+    <>
+      <div className={styles.wrapper}>
+        {state.map((item, index) => {
+          return (
+            <PortfolioItem
+              item={item}
+              arr={state}
+              setItem={setState}
+              key={index}
+            />
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+export default Portfolios;
