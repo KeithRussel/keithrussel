@@ -4,7 +4,7 @@
 
 ## About me
 - 📖 I’m currently taking a Front-End Engineer career path program in Codecademy Pro.
-- :keyboard: I'm a coding hobbyist who spends 5-9hrs to study in Web Development in general.
+- :keyboard: I'm a coding hobbyist who spends 5-9hrs coding for fun and studying Web Development in general.
 - :sparkles: Interests:
   - :chess_pawn: I like playing Chess and Valorant
   - :tv: I am more have interest watching Korean series than other TV series
