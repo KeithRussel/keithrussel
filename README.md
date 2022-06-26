@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I’m Russel Maniacop 👋:technologist: </h1> 
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="horizontal line" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 ## About me
 - 📖 I’m currently taking a Front-End Engineer career path program in Codecademy Pro.
@@ -10,7 +10,7 @@
   - :tv: I am more have interest watching Korean series than other TV series
   - :beer: I like having a drink on beach with friends
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="horizontal line" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 ## Top projects so far
 - Student Manager - [Repo](https://github.com/KeithRussel/studentmanager) | [Live](https://intense-depths-40828.herokuapp.com)
@@ -19,7 +19,7 @@
 - Personal Portfolio Site with Blog CMS - [Repo](https://github.com/KeithRussel/keithrussel) | [Live](https://keithrussel.vercel.app/)
 
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="horizontal line" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 ## Skills
 
@@ -33,7 +33,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma icon" width="35" />
 </p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="horizontal line" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 <details>
   <summary>
@@ -48,7 +48,7 @@
   - [Data Scientist | Machine Learning](https://www.codecademy.com/learn/paths/data-science)
 </details>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="horizontal line" width="100%"/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 <details>
   <summary>
