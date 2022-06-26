@@ -59,8 +59,6 @@
   <p>
 </details>
 
-© 
-
 # Personal Portfolio and Custom CMS Blog Site
 
 Im new to NEXTJS a javascript framework and I found it interesting. To explore about it I decided to build this PWA to make my personal portfolio blog site and will keep updating it to add some features. [sample link](https://keithrussel.vercel.app/)
