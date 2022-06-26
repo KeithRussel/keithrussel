@@ -55,7 +55,7 @@
     <h2>GitHub stats</h2>
   </summary>
   <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=keithrussel-mca&show_icons=true&theme=rose_pine" alt="Russel A's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=KeithRussel&count_private=true" alt="Russel A's GitHub Stats" />
   <p>
 </details>
 
