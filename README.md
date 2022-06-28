@@ -12,12 +12,14 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
-## Top projects so far
+## Top sample functional projects so far
 - Student Manager - [Repo](https://github.com/KeithRussel/studentmanager) | [Live](https://intense-depths-40828.herokuapp.com)
 - ShopIt Ecommerce - [Repo](https://github.com/KeithRussel/shopit) | [Live](https://shopitapp.herokuapp.com)
-- Number Guesser - [Repo](https://github.com/KeithRussel/Frontend-Engineering-Path/tree/main/VanillaJavascript/01-NumberGuesser) | [Live](#)
 - Personal Portfolio Site with Blog CMS - [Repo](https://github.com/KeithRussel/keithrussel) | [Live](https://keithrussel.vercel.app/)
 
+## Exercises/Challenges
+- Number Guesser - [Repo](https://github.com/KeithRussel/Frontend-Engineering-Path/tree/main/VanillaJavascript/01-NumberGuesser) | [Live](#)
+- [Check my codepen profile for my other exercises](https://codepen.io/keiiiiithh)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
@@ -29,6 +31,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript icon" width="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react icon" width="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git icon" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode icon" width="35" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma icon" width="35" />
 </p>
