@@ -16,6 +16,7 @@
 - Student Manager - [Repo](https://github.com/KeithRussel/studentmanager) | [Live](https://intense-depths-40828.herokuapp.com)
 - ShopIt Ecommerce - [Repo](https://github.com/KeithRussel/shopit) | [Live](https://shopitapp.herokuapp.com)
 - Personal Portfolio Site with Blog CMS - [Repo](https://github.com/KeithRussel/keithrussel) | [Live](https://keithrussel.vercel.app/)
+- Socially | Simple social crud & authentication function - [Repo](https://github.com/KeithRussel/socially-app) | Still Work In Progress..
 
 ## Exercises/Challenges
 - Number Guesser - [Repo](https://github.com/KeithRussel/Frontend-Engineering-Path/tree/main/VanillaJavascript/01-NumberGuesser) | [Live](#)
