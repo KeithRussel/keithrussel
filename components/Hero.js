@@ -48,14 +48,14 @@ const Hero = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/KeithRussel">
+              <Link href="https://codepen.io/keiiiiithh">
                 <a target="_blank">
                   <FontAwesomeIcon icon={faCodepen} size="2x" />
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/KeithRussel">
+              <Link href="https://www.linkedin.com/in/russel-maniacop-12981a161/">
                 <a target="_blank">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
