@@ -8,6 +8,8 @@ module.exports = {
       "user-images.githubusercontent.com",
       "media.slid.es",
       "picsum.photos",
+      "raw.githubusercontent.com",
+      "github.com",
     ],
   },
 };

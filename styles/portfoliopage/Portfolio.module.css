@@ -1,0 +1,127 @@
+.container {
+    display: grid;
+    gap: 10px;
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem 0;
+    animation-name: backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    border-radius: 1rem;
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+        background: #f4f6f8;
+    }
+    25% {
+        background: #dfeef7;
+    }
+    50% {
+        background: #c4e5f7;
+    }
+    75% {
+        background: #dcecf8;
+    }
+    100% {
+        background: #e8f1f8;
+    }
+}
+
+.row .col {
+    padding-left: 1rem;
+}
+
+.row .col:nth-child(2) {
+    /* background-color: #1178b30f; */
+    grid-column: 2/4;
+    align-self: center;
+}
+
+.col a h1 {
+    font-size: 2.6rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.col ul {
+    padding: 0;
+    list-style: none;
+}
+
+.col ul li {
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row .col {
+        grid-column: 1/4;
+        text-align: center;
+    }
+
+    .row .col:nth-child(2) {
+        grid-column: 1/4;
+    }
+
+    .col a h1 {
+        font-size: 2rem;
+    }
+
+    .col ul li {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .row .col {
+        grid-column: 1/4;
+        text-align: center;
+    }
+
+    .row .col:nth-child(2) {
+        grid-column: 1/4;
+    }
+
+    .col a h1 {
+        font-size: 2rem;
+    }
+
+    .col ul li {
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .row {
+        gap: 10px;
+    }
+
+    .row .col {
+        grid-column: 1/2;
+        text-align: center;
+    }
+
+    .row .col:nth-child(2) {
+        grid-column: 2/4;
+    }
+
+    .col a h1 {
+        font-size: 1.8rem;
+    }
+
+    .col ul li {
+        font-size: 1.1rem;
+    }
+}

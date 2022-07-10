@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/Layout.module.css";
+import styles from "../styles/portfoliopage/Portfolio.module.css";
 import Link from "next/link";
 
 const PortfolioItem = ({ item }) => {
@@ -8,8 +8,8 @@ const PortfolioItem = ({ item }) => {
 
   return (
     <>
-      <div className={styles.item} key={item.title}>
-        <div className={styles.item_col}>
+      <div className={styles.row} key={item.title}>
+        <div className={styles.col}>
           <Link href={item.link}>
             <a target="_blank">
               <h1>{item.title}</h1>
@@ -23,11 +23,11 @@ const PortfolioItem = ({ item }) => {
             </ul>
           </div>
         </div>
-        <div className={styles.item_col}>
+        <div className={styles.col}>
           <Image
             // src="https://picsum.photos/1300/640"
             src={item.img}
-            alt="brgyforum portfolio site"
+            alt="Project"
             width={1300}
             height={440}
             objectFit="contain"

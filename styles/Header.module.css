@@ -9,7 +9,7 @@
 .header {
   background-color: var(--primary-color);
   max-width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 9999;
   width: 100%;
@@ -17,7 +17,7 @@
 
 .wrapper {
   display: flex;
-  padding: 0 2rem;
+  max-width: 90%;
   margin: auto;
 }
 
@@ -39,7 +39,6 @@
 
 .headerNav li a {
   color: var(--light-color);
-  position: relative;
   font-weight: bold;
   transition: all 2s;
 }
@@ -48,6 +47,10 @@
 .headerNav li a:after,
 .headerNav li a:before {
   transition: all 0.5s;
+}
+
+.headerNav li a:hover {
+  color: #6ccaff;
 }
 
 .headerNav li a::after {
@@ -134,8 +137,41 @@
   }
 }
 
-@media (max-width: 425px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .headerNav {
+    display: none;
+  }
+
   .mobileHeaderNav {
+    display: block;
+    width: 50%;
+    top: 0;
+    transition: width 0.1s;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .headerNav {
+    display: none;
+  }
+
+  .mobileHeaderNav {
+    display: block;
+    width: 50%;
+    top: 0;
+    transition: width 0.1s;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mobileHeaderNav {
+    display: block;
+    top: 0;
     width: 50%;
     transition: width 0.1s;
     transition-timing-function: ease-in-out;

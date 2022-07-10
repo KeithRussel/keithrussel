@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import styles from "../styles/Layout.module.css";
+// import styles from "../styles/Layout.module.css";
+import styles from "../styles/portfoliopage/Portfolio.module.css";
 import PortfolioItem from "./PortfolioItem";
 
 const Portfolios = () => {
@@ -8,7 +9,7 @@ const Portfolios = () => {
       title: "MK Javier",
       link: "https://mkjavier.com/",
       lists: ["NextJS", "ReactJS", "React Bootstrap", "SEO"],
-      img: "/uploads/mkjavier_p.png",
+      img: "/uploads/mkjavier.png",
     },
     {
       title: "Gmailnator Mobile App (Not on Playstore yet)",
@@ -20,10 +21,10 @@ const Portfolios = () => {
       title: "Shop It",
       link: "https://shopitapp.herokuapp.com/",
       lists: [
+        "NodeJS",
         "ExpressJS",
         "MongoDB",
         "ReactJS",
-        "NodeJS",
         "JWT auth",
         "Redux",
         "React Bootstrap",
@@ -33,21 +34,63 @@ const Portfolios = () => {
       img: "/uploads/shopit.png",
     },
     {
+      title: "Student Manager",
+      link: "https://intense-depths-40828.herokuapp.com/",
+      lists: [
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "ReactJS",
+        "JWT auth",
+        "Context API",
+        "Axios",
+        "React Bootstrap",
+      ],
+      img: "/uploads/studentmanager.png",
+    },
+    {
       title: "Pangasinan",
       link: "https://www.pangasinan.gov.ph/",
-      lists: ["Wordpress", "Sass", "PHP"],
-      img: "/uploads/pangasinan_p.png",
+      lists: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "Wordpress",
+        "Advance Custom Fields",
+      ],
+      img: "/uploads/pangasinan.png",
     },
     {
       title: "Watergate",
       link: "https://www.watergatehotelbutuan.ph/",
-      lists: ["Wordpress", "Sass", "PHP"],
-      img: "/uploads/watergate_p.png",
+      lists: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "Wordpress",
+        "Advance Custom Fields",
+      ],
+      img: "/uploads/watergate.png",
+    },
+    {
+      title: "Personal Portfolio",
+      link: "https://keithrussel.vercel.app",
+      lists: [
+        "CSS",
+        "Javascript",
+        "Reactjs",
+        "Nextjs",
+        "Ghost CMS for posting blogs",
+      ],
+      img: "/uploads/portfolio.png",
     },
   ]);
+
   return (
     <>
-      <div className={styles.wrapper}>
+      <div className={styles.container}>
         {state.map((item, index) => {
           return (
             <PortfolioItem

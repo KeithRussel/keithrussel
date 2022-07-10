@@ -75,17 +75,17 @@ const Header = () => {
               <a>Blog</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <FontAwesomeIcon icon={faAddressCard} />
             <Link href="/contact">
               <a>Contact</a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 
       <div className={styles.wrapper}>
-        <h2>KeithRussel</h2>
+        <h2>KRM</h2>
         <ul className={styles.headerNav}>
           <li>
             <Link href="/">
