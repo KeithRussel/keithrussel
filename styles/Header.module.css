@@ -21,8 +21,9 @@
   margin: auto;
 }
 
-.wrapper h2 {
+.wrapper h2 a {
   color: #fff;
+  font-size: 2rem;
 }
 
 .headerNav {

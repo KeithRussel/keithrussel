@@ -14,10 +14,9 @@ const Skills = () => {
             </div>
             <h2>Tech that I used and familiar with</h2>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat."
+              As a developer, I am heavily focused on using these tech stacks
+              and passionate when comes to learning about the web for
+              self-improvement and interest.
             </p>
             <div className={styles.skill_list}>
               <ul>
@@ -94,10 +93,7 @@ const Skills = () => {
               <span>Tools & Others</span>
             </div>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat."
+              Here are the tools that I am using when developing a web projects.
             </p>
             <div className={styles.tools_list}>
               <ul>

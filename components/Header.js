@@ -85,7 +85,11 @@ const Header = () => {
       </div>
 
       <div className={styles.wrapper}>
-        <h2>KRM</h2>
+        <h2>
+          <Link href="/">
+            <a>KRM</a>
+          </Link>
+        </h2>
         <ul className={styles.headerNav}>
           <li>
             <Link href="/">

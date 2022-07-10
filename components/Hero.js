@@ -30,7 +30,7 @@ const Hero = () => {
           </h1>
           <p>
             I'm a code hobbyist specializing in Web Development. Bringing
-            designs into live website and webapp projects
+            designs into live website and webapp projects.
           </p>
           <button onClick={scroll}>Get Started</button>
         </div>
