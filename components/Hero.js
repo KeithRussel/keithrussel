@@ -26,7 +26,10 @@ const Hero = () => {
             height={250}
           />
           <h1>
-            Hello, <span>I'm Russel Maniacop</span>
+            Hello,{" "}
+            <span>
+              I'm Russel Maniacop <span className={styles.wave}>👋</span>
+            </span>
           </h1>
           <p>
             I'm a code hobbyist specializing in Web Development. Bringing
