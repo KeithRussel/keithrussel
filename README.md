@@ -63,7 +63,12 @@
     <h2>Useful infos and contents</h2>
   </summary>
 
+  ### Accessibility
   - [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+  - [WAI/ARIA in HTML](https://w3c.github.io/using-aria/#intro)
+  - [The a11y Project Checklist](https://www.a11yproject.com/checklist/)
+  - [CSS and JavaScript accessibility best practices](https://www.a11yproject.com/checklist/)
+  - [Complete list of ARIA Properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
   - [Flat Design Article](https://www.nngroup.com/articles/flat-design/)
 </details>
 
