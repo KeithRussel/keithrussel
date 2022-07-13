@@ -67,7 +67,7 @@
   - [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
   - [WAI/ARIA in HTML](https://w3c.github.io/using-aria/#intro)
   - [The a11y Project Checklist](https://www.a11yproject.com/checklist/)
-  - [CSS and JavaScript accessibility best practices](https://www.a11yproject.com/checklist/)
+  - [CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript#css_and_javascript_are_accessible)
   - [Complete list of ARIA Properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
   - [Flat Design Article](https://www.nngroup.com/articles/flat-design/)
 </details>
