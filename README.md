@@ -73,8 +73,9 @@
   <summary>
     <h2>Useful infos and contents</h2>
   </summary>
-- [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [Flat Design Article](https://www.nngroup.com/articles/flat-design/)
+
+  - [Codecademy | Full Stack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
+  - [Data Scientist | Machine Learning](https://www.codecademy.com/learn/paths/data-science)
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
