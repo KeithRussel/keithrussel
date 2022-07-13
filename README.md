@@ -72,8 +72,8 @@
   <summary>
     <h2>Useful infos and contents</h2>
   </summary>
-- HTML Elements - [Link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- Flat Design Article - [Live](https://www.nngroup.com/articles/flat-design/)
+- [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Flat Design Article](https://www.nngroup.com/articles/flat-design/)
 </details>
 
 # Personal Portfolio and Custom CMS Blog Site
