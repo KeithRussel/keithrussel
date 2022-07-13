@@ -74,6 +74,7 @@
   ### CSS ANIMATIONS
   - [Animatable CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
   - [Timing Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
+  - [CSS Transitions documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
