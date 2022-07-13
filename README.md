@@ -67,6 +67,10 @@
   <p>
 </details>
 
+## Useful infos and contents
+- HTML Elements - [Link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- Flat Design Article - [Live](https://www.nngroup.com/articles/flat-design/)
+
 # Personal Portfolio and Custom CMS Blog Site
 
 Im new to NEXTJS a javascript framework and I found it interesting. To explore about it I decided to build this PWA to make my personal portfolio blog site and will keep updating it to add some features. [sample link](https://keithrussel.vercel.app/)
