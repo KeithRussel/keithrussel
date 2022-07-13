@@ -60,22 +60,22 @@
 
 <details>
   <summary>
-    <h2>GitHub stats</h2>
+    <h2>Useful infos and contents</h2>
   </summary>
-  <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KeithRussel&count_private=true&show_icons=true&theme=cobalt" alt="Russel A's GitHub Stats" />
-  <p>
+
+  - [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+  - [Flat Design Article](https://www.nngroup.com/articles/flat-design/)
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 <details>
   <summary>
-    <h2>Useful infos and contents</h2>
+    <h2>GitHub stats</h2>
   </summary>
-
-  - [Codecademy | Full Stack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
-  - [Data Scientist | Machine Learning](https://www.codecademy.com/learn/paths/data-science)
+  <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KeithRussel&count_private=true&show_icons=true&theme=cobalt" alt="Russel A's GitHub Stats" />
+  <p>
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
