@@ -80,6 +80,14 @@
   - [MDN CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
   - [Keyframes](https://keyframes.app/)
   - [Animasta](https://animista.net/)
+  
+  ### GIT and Markdown
+  - [Version Control in VSCode](https://code.visualstudio.com/docs/introvideos/versioncontrol)
+  - [Git Docs](https://git-scm.com/docs/git)
+  - [Github Docs](https://docs.github.com/en)
+  - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+  - [Github Guide to Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+  - [Markdown Parsers Dillinger](https://dillinger.io/)
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
