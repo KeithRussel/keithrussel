@@ -79,7 +79,7 @@
   - [CSS Animation for beginners](https://thoughtbot.com/blog/css-animation-for-beginners)
   - [MDN CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
   - [Keyframes](https://keyframes.app/)
-  - [Keyframes](https://animista.net/)
+  - [Animasta](https://animista.net/)
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
