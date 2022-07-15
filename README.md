@@ -49,11 +49,45 @@
   </summary>
   
   ### Current courses
-  - [Codecademy | Front-End Engineer Career Path](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) | 32% progress at the moment
+  - [Codecademy | Front-End Engineer Career Path](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) | 37% progress at the moment
   
   ### Future courses
   - [Codecademy | Full Stack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
   - [Data Scientist | Machine Learning](https://www.codecademy.com/learn/paths/data-science)
+</details>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
+
+<details>
+  <summary>
+    <h2>Useful infos and contents</h2>
+  </summary>
+
+  ### Accessibility
+  - [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+  - [WAI/ARIA in HTML](https://w3c.github.io/using-aria/#intro)
+  - [The a11y Project Checklist](https://www.a11yproject.com/checklist/)
+  - [CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript#css_and_javascript_are_accessible)
+  - [Complete list of ARIA Properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
+  - [Flat Design Article](https://www.nngroup.com/articles/flat-design/)
+  
+  ### CSS ANIMATIONS
+  - [Animatable CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+  - [Timing Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
+  - [CSS Transitions documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+  - [CSS Transforms documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms)
+  - [CSS Animation for beginners](https://thoughtbot.com/blog/css-animation-for-beginners)
+  - [MDN CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+  - [Keyframes](https://keyframes.app/)
+  - [Animasta](https://animista.net/)
+  
+  ### GIT and Markdown
+  - [Version Control in VSCode](https://code.visualstudio.com/docs/introvideos/versioncontrol)
+  - [Git Docs](https://git-scm.com/docs/git)
+  - [Github Docs](https://docs.github.com/en)
+  - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+  - [Github Guide to Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+  - [Markdown Parsers Dillinger](https://dillinger.io/)
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
@@ -66,6 +100,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=KeithRussel&count_private=true&show_icons=true&theme=cobalt" alt="Russel A's GitHub Stats" />
   <p>
 </details>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 # Personal Portfolio and Custom CMS Blog Site
 
