@@ -88,6 +88,24 @@
   - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
   - [Github Guide to Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
   - [Markdown Parsers Dillinger](https://dillinger.io/)
+  
+  ### Javascript I. Classes and Modules
+  - [Javascript Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+  - [Design Patterns](https://www.patterns.dev/)
+  - [Javascript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+  - [Understanding Classes in JS](https://www.taniarascia.com/understanding-classes-in-javascript/)
+  - [Prototypes and Inheretance in JS](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
+  - [Inheretance and Protochain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+  
+  ### Javascript Testing
+  - [Assert Nodejs](https://nodejs.org/api/assert.html)
+  - [Assert.deepEqual](https://nodejs.org/api/assert.html#assert_assert_deepequal_actual_expected_message)
+  - [Other Assert Method](https://nodejs.org/api/assert.html)
+  - [Characteristics of Good Test](https://www.codecademy.com/article/tdd-u1-good-test)
+  - [MochaJS](https://mochajs.org/#getting-started)
+  - [ChaiJS](https://www.chaijs.com/guide/styles/)
+  - [SinonJS](https://sinonjs.org/releases/latest/spies/)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
