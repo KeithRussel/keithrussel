@@ -107,6 +107,16 @@
   - [ChaiJS](https://www.chaijs.com/guide/styles/)
   - [SinonJS](https://sinonjs.org/releases/latest/spies/)
   
+  
+  ### Async Javascript and HTTP Requests
+  - [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+  - [What the heck is the Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ&ab_channel=JSConf)
+  - [Guide to Graceful asynchronous Programming with Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
+  - [Introduction to Web API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+  - [Overview to HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+  - [MDN: Using Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+  - [MDN: Guide to Third Party API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
