@@ -63,7 +63,7 @@ const Hero = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://jsfiddle.net/user/fiddles/all/">
+              <Link href="https://jsfiddle.net/user/keithrussel/fiddles/">
                 <a target="_blank">
                   <FontAwesomeIcon icon={faJsfiddle} size="2x" />
                 </a>
