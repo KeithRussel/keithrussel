@@ -140,6 +140,7 @@
 
     .hero_links {
         grid-column: 1/4;
+        text-align: center;
     }
 
     .hero_links h2 {
@@ -168,6 +169,7 @@
 
     .hero_links {
         grid-column: 1/4;
+        text-align: center;
     }
 
     .hero_links h2 {
