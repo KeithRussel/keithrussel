@@ -105,8 +105,7 @@
   - [Introduction to TDD - Test Driven Development](https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)
   - [MochaJS](https://mochajs.org/#getting-started)
   - [ChaiJS](https://www.chaijs.com/guide/styles/)
-  - [SinonJS](https://sinonjs.org/releases/latest/spies/)
-  
+  - [SinonJS](https://sinonjs.org/releases/latest/spies/)  
   
   ### Async Javascript and HTTP Requests
   - [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
@@ -116,6 +115,21 @@
   - [Overview to HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
   - [MDN: Using Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
   - [MDN: Guide to Third Party API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)
+  
+  ### Web Apps
+  - [Poll Results: Sites vs Apps](https://css-tricks.com/poll-results-sites-vs-apps/)
+  - [Javascript Refresher](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript#overview)
+  - [Intro to Functional Javascript](https://medium.com/functional-javascript/introduction-to-functional-javascript-45a9dca6c64a)
+  - [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+  - [Difference between DOM vs Virtual DOM](https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
+  
+  ### React Part I
+  - [Gentle Explaination of "this" in Javascript](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
+  - [Create React App](https://create-react-app.dev/docs/getting-started)
+  - [React Docu](https://reactjs.org/docs/getting-started.html)
+  - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+  - [What the fork is React Virtual DOM](https://maggieappleton.com/react-vdom)
+  - [Awesome React](https://github.com/enaqx/awesome-react)
   
 </details>
 
