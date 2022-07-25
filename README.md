@@ -140,7 +140,10 @@
     <h2>GitHub stats</h2>
   </summary>
   <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KeithRussel&count_private=true&show_icons=true&theme=cobalt" alt="Russel A's GitHub Stats" />
+  
+  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=KeithRussel&theme=nightowl&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KeithRussel&layout=compact&theme=nightowl)](https://github.com/anuraghazra/github-readme-stats)
+
   <p>
 </details>
 
