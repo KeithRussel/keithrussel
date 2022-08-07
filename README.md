@@ -131,6 +131,19 @@
   - [What the fork is React Virtual DOM](https://maggieappleton.com/react-vdom)
   - [Awesome React](https://github.com/enaqx/awesome-react)
   
+  ### React Part II
+  - [React Handling Events](https://reactjs.org/docs/handling-events.html)
+  - [React Dev Tools Sandbox](https://react-devtools-tutorial.vercel.app/element-selector-tool)
+  - [Component Lifecycle Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+  - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+  - [React Component](https://reactjs.org/docs/react-component.html)
+  - [Awesome React](https://github.com/enaqx/awesome-react)
+  
+  ### Intermediate React
+  - [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
+  - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+  - [Gist Presentational & Container Components II](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
