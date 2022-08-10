@@ -105,7 +105,9 @@
   - [Introduction to TDD - Test Driven Development](https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)
   - [MochaJS](https://mochajs.org/#getting-started)
   - [ChaiJS](https://www.chaijs.com/guide/styles/)
-  - [SinonJS](https://sinonjs.org/releases/latest/spies/)  
+  - [SinonJS](https://sinonjs.org/releases/latest/spies/)
+  - [EnzymeJS](https://enzymejs.github.io/enzyme/)
+  - [JEST](https://jestjs.io/docs/tutorial-react)
   
   ### Async Javascript and HTTP Requests
   - [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
