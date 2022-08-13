@@ -146,6 +146,12 @@
   - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
   - [Gist Presentational & Container Components II](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
   
+  ### React Debug & Testing
+  - [Debugging React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react)
+  - [React Jest Enzyme](https://pusher.com/tutorials/react-jest-enzyme/)
+  - [Advance React Components mocks with Jest and React testing library](https://ericdcobb.medium.com/advanced-react-component-mocks-with-jest-and-react-testing-library-f1ae8838400b)
+  - [Testing in React best practices tips and tricks](https://techblog.commercetools.com/testing-in-react-best-practices-tips-and-tricks-577bb98845cd)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
