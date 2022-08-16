@@ -49,7 +49,7 @@
   </summary>
   
   ### Current courses
-  - [Codecademy | Front-End Engineer Career Path](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) | 37% progress at the moment
+  - [Codecademy | Front-End Engineer Career Path](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) | 64% progress at the moment
   
   ### Future courses
   - [Codecademy | Full Stack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
