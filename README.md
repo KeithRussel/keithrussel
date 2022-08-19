@@ -18,9 +18,32 @@
 - Personal Portfolio Site with Blog CMS - [Repo](https://github.com/KeithRussel/keithrussel) | [Live](https://keithrussel.vercel.app/)
 - Socially | Simple social crud & authentication function - [Repo](https://github.com/KeithRussel/socially-app) | Still Work In Progress..
 
-## Exercises/Challenges
-- Number Guesser - [Repo](https://github.com/KeithRussel/Frontend-Engineering-Path/tree/main/VanillaJavascript/01-NumberGuesser) | [Live](#)
+<details>
+  <summary>Exercises/Challenges</summary>
+| Project Name | Live URL |
+| --- | --- |
+| `Number Guesser` - | **[Repo](https://github.com/KeithRussel/Frontend-Engineering-Path/tree/main/VanillaJavascript/01-NumberGuesser) |
+| `Film Finder` | **[Link](https://keithrussel.github.io/Frontend-Engineering-Path/JavascriptnReact/05-FilmFinder/)** |
+| `Authorization Form` | **[Link](https://codepen.io/keiiiiithh/pen/ExEXpQv)** |
+| `Playlistapp` | **[Link](http://russel-jammming.surge.sh/)** |
+| `PassingThoughts` | **[Link](http://russel-passingthoughts.surge.sh/)** |
+| `CopyCat` | **[Link](http://russel-copycat.surge.sh/)** |
+| `Pet Adoption` | **[Link](https://russel-routing-petadoption.netlify.app/)** |
+| `Appointment Planner` | **[Link](https://simpleappointmentplanner.netlify.app)** |
+| `Matching Memory` | **[Link](https://redux-matching-memory.netlify.app/)** |
+
+
+| Gists of Some Lessons | Code Link |
+| --- | --- |
+| `Redux Road` | **[Link](https://gist.github.com/codecademydev/1cf8a159d792aad426fb3b5da9396d1c)** |
+| `Redux Lights on/off` | **[Link](https://gist.github.com/427ca53e2ec2fb2e9c0d8ace8c54697a)** |
+| `Redux Strategies for Complex State (Recipes App) ` | **[Link](https://gist.github.com/codecademydev/35bfdf9acd8370193d93c43d66986e73)** |
+| `Redux Codecademy Store` | **[Link](https://gist.github.com/codecademydev/51aba28c7326151708fb333d12d43dce)** |
+| `React-Redux Library(Recipe App)` | **[Link](https://gist.github.com/codecademydev/4534eb9a35b44228e4de3a23ebf079c7)** |
+
+
 - [Check my codepen profile for my other exercises](https://codepen.io/keiiiiithh)
+</details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
