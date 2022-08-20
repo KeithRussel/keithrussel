@@ -41,6 +41,7 @@
   - [Redux Strategies for Complex State (Recipes App)](https://gist.github.com/codecademydev/35bfdf9acd8370193d93c43d66986e73)
   - [Redux Codecademy Store](https://gist.github.com/codecademydev/51aba28c7326151708fb333d12d43dce)
   - [React-Redux Library(Recipe App)](https://gist.github.com/codecademydev/4534eb9a35b44228e4de3a23ebf079c7)
+  - [Refactoring with Redux Toolkit(Expense Tracker)](https://gist.github.com/codecademydev/482336f1b12e542dc7b977e5d8d17c90)
   
   ### Other Exercises Link
   - [Codepen](https://codepen.io/keiiiiithh)
