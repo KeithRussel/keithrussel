@@ -42,6 +42,7 @@
   - [Redux Codecademy Store](https://gist.github.com/codecademydev/51aba28c7326151708fb333d12d43dce)
   - [React-Redux Library(Recipe App)](https://gist.github.com/codecademydev/4534eb9a35b44228e4de3a23ebf079c7)
   - [Refactoring with Redux Toolkit(Expense Tracker)](https://gist.github.com/codecademydev/482336f1b12e542dc7b977e5d8d17c90)
+  - [createAsyncThunk comparison old vs with createAsyncThunk](https://gist.github.com/cbcfbfae923391902499ed6b75d418ca)
   
   ### Other Exercises Link
   - [Codepen](https://codepen.io/keiiiiithh)
