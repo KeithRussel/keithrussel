@@ -179,6 +179,29 @@
   - [Advance React Components mocks with Jest and React testing library](https://ericdcobb.medium.com/advanced-react-component-mocks-with-jest-and-react-testing-library-f1ae8838400b)
   - [Testing in React best practices tips and tricks](https://techblog.commercetools.com/testing-in-react-best-practices-tips-and-tricks-577bb98845cd)
   
+  ### Redux Toolkit
+  - [Ducks Modular Redux](https://github.com/erikras/ducks-modular-redux)
+  - [Redux Structure Files as Feature Folders or Ducks](https://redux.js.org/style-guide/#structure-files-as-feature-folders-or-ducks)
+  - [Refactoring with Redux Toolkit Cheatsheet](https://www.codecademy.com/learn/paths/front-end-engineer-career-path/tracks/fecp-22-redux/modules/wdcp-22-refactoring-with-redux-toolkit/cheatsheet)
+  - [Redux Toolkit Docu](https://redux-toolkit.js.org/)
+  - [Redux Thunk Docu](https://github.com/reduxjs/redux-thunk)
+  - [Redux Toolkit how configureStore includes redux-thunk by default](https://redux-toolkit.js.org/api/getDefaultMiddleware#getdefaultmiddleware)
+  
+  ### Coding Review
+  - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
+  - [Best practices for peer code review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+  - [How to review someone else code](https://www.youtube.com/watch?v=TlXy_i27N3w)
+  - [Code Review Why Is it important?](https://wishdesk.com/blog/why-code-review-important)
+  - [Article Give and Receiving code reviews](https://discuss.codecademy.com/t/article-giving-and-receiving-code-review)
+  
+  ### Git & Github
+  - [How to contribute in open source](https://github.com/freeCodeCamp/how-to-contribute-to-open-source)
+  - [How to contribute on Github](https://www.dataschool.io/how-to-contribute-on-github/)
+  - [Git branch naming conventions](https://deepsource.io/blog/git-branch-naming-conventions/)
+  - [Github Review - Exploring Workflows](https://www.youtube.com/watch?v=EwWZbyjDs9c&ab_channel=GitHubTraining%26Guides)
+  - [List of Integration Services](https://github.com/ligurio/awesome-ci)
+  - [Guide to Project Management Issues & Projects](https://www.codecademy.com/courses/learn-git/articles/project-management-issues-and-projects)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
