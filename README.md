@@ -202,6 +202,13 @@
   - [List of Integration Services](https://github.com/ligurio/awesome-ci)
   - [Guide to Project Management Issues & Projects](https://www.codecademy.com/courses/learn-git/articles/project-management-issues-and-projects)
   
+  ### SEO
+  - [Smashing Guide Search Engine Optimization](https://www.smashingmagazine.com/smashing-guide-search-engine-optimization/)
+  - [Beginners guide to SEO](https://moz.com/beginners-guide-to-seo)
+  - [SEO Guide](https://www.searchenginejournal.com/seo-guide/)
+  - [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+  - [SEO Checklist Audit](https://web.dev/lighthouse-seo/)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
