@@ -209,6 +209,9 @@
   - [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
   - [SEO Checklist Audit](https://web.dev/lighthouse-seo/)
   
+  ### Pair Programming
+  - [Collaborative coding tools for remote pair programming](https://www.sitepoint.com/collaborative-coding-tools-for-remote-pair-programming/)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
