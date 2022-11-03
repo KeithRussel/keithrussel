@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "../../styles/landingpage/Hero.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCodepen,
   faLinkedin,
