@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-// import styles from "../styles/Layout.module.css";
-// import PortfolioItem from "./portfolioItem";
-import Portfolios from "../components/Portfolios";
+import Portfolios from "../components/Portfolio/Portfolios";
 
 const portfolio = () => {
   return (
