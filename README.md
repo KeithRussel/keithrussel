@@ -13,14 +13,42 @@
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 ## Top sample functional projects so far
+- Bulletin Board - [Repo](https://github.com/KeithRussel/bulletinboard) | [Live](http://bulletinboard_bykit.surge.sh/)
 - Student Manager - [Repo](https://github.com/KeithRussel/studentmanager) | [Live](https://intense-depths-40828.herokuapp.com)
 - ShopIt Ecommerce - [Repo](https://github.com/KeithRussel/shopit) | [Live](https://shopitapp.herokuapp.com)
 - Personal Portfolio Site with Blog CMS - [Repo](https://github.com/KeithRussel/keithrussel) | [Live](https://keithrussel.vercel.app/)
 - Socially | Simple social crud & authentication function - [Repo](https://github.com/KeithRussel/socially-app) | Still Work In Progress..
 
-## Exercises/Challenges
-- Number Guesser - [Repo](https://github.com/KeithRussel/Frontend-Engineering-Path/tree/main/VanillaJavascript/01-NumberGuesser) | [Live](#)
-- [Check my codepen profile for my other exercises](https://codepen.io/keiiiiithh)
+<details>
+  <summary>
+    <h2>Exercises/Challenges</h2>
+  </summary>
+  
+  ### Projects/Challenges
+  - [Number Guesser](https://github.com/KeithRussel/Frontend-Engineering-Path/tree/main/VanillaJavascript/01-NumberGuesser)
+  - [Film Finder](https://keithrussel.github.io/Frontend-Engineering-Path/JavascriptnReact/05-FilmFinder/)
+  - [Authorization Form](https://codepen.io/keiiiiithh/pen/ExEXpQv)
+  - [Playlistapp](http://russel-jammming.surge.sh/)
+  - [Passing Thoughts](http://russel-passingthoughts.surge.sh)
+  - [CopyCat](http://russel-copycat.surge.sh/)
+  - [Pet Adoption](https://russel-routing-petadoption.netlify.app)
+  - [Passing Thoughts](http://russel-passingthoughts.surge.sh)
+  - [Appointment Planner](https://simpleappointmentplanner.netlify.app/)
+  - [Matching Memory](https://redux-matching-memory.netlify.app)
+  
+  ### Gists of Some Lessons
+  - [Redux Road](https://gist.github.com/codecademydev/1cf8a159d792aad426fb3b5da9396d1c)
+  - [Redux Lights on/off](https://gist.github.com/427ca53e2ec2fb2e9c0d8ace8c54697a)
+  - [Redux Strategies for Complex State (Recipes App)](https://gist.github.com/codecademydev/35bfdf9acd8370193d93c43d66986e73)
+  - [Redux Codecademy Store](https://gist.github.com/codecademydev/51aba28c7326151708fb333d12d43dce)
+  - [React-Redux Library(Recipe App)](https://gist.github.com/codecademydev/4534eb9a35b44228e4de3a23ebf079c7)
+  - [Refactoring with Redux Toolkit(Expense Tracker)](https://gist.github.com/codecademydev/482336f1b12e542dc7b977e5d8d17c90)
+  - [createAsyncThunk comparison old vs with createAsyncThunk](https://gist.github.com/cbcfbfae923391902499ed6b75d418ca)
+  - [Redux News Reader Project Challenge](https://gist.github.com/codecademydev/f94b8aad7f3fe3775ee03f8b3bf4c2cf)
+  
+  ### Other Exercises Link
+  - [Codepen](https://codepen.io/keiiiiithh)
+</details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
@@ -49,7 +77,7 @@
   </summary>
   
   ### Current courses
-  - [Codecademy | Front-End Engineer Career Path](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) | 37% progress at the moment
+  - [Codecademy | Front-End Engineer Career Path](https://www.codecademy.com/learn/paths/front-end-engineer-career-path) | 74% progress at the moment
   
   ### Future courses
   - [Codecademy | Full Stack Engineer Career Path](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
@@ -106,7 +134,8 @@
   - [MochaJS](https://mochajs.org/#getting-started)
   - [ChaiJS](https://www.chaijs.com/guide/styles/)
   - [SinonJS](https://sinonjs.org/releases/latest/spies/)
-  
+  - [EnzymeJS](https://enzymejs.github.io/enzyme/)
+  - [JEST](https://jestjs.io/docs/tutorial-react)
   
   ### Async Javascript and HTTP Requests
   - [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
@@ -117,6 +146,73 @@
   - [MDN: Using Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
   - [MDN: Guide to Third Party API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)
   
+  ### Web Apps
+  - [Poll Results: Sites vs Apps](https://css-tricks.com/poll-results-sites-vs-apps/)
+  - [Javascript Refresher](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript#overview)
+  - [Intro to Functional Javascript](https://medium.com/functional-javascript/introduction-to-functional-javascript-45a9dca6c64a)
+  - [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+  - [Difference between DOM vs Virtual DOM](https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
+  
+  ### React Part I
+  - [Gentle Explaination of "this" in Javascript](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
+  - [Create React App](https://create-react-app.dev/docs/getting-started)
+  - [React Docu](https://reactjs.org/docs/getting-started.html)
+  - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+  - [What the fork is React Virtual DOM](https://maggieappleton.com/react-vdom)
+  - [Awesome React](https://github.com/enaqx/awesome-react)
+  
+  ### React Part II
+  - [React Handling Events](https://reactjs.org/docs/handling-events.html)
+  - [React Dev Tools Sandbox](https://react-devtools-tutorial.vercel.app/element-selector-tool)
+  - [Component Lifecycle Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+  - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+  - [React Component](https://reactjs.org/docs/react-component.html)
+  - [Awesome React](https://github.com/enaqx/awesome-react)
+  
+  ### Intermediate React
+  - [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
+  - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+  - [Gist Presentational & Container Components II](https://gist.github.com/chantastic/fc9e3853464dffdb1e3c)
+  
+  ### React Debug & Testing
+  - [Debugging React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react)
+  - [React Jest Enzyme](https://pusher.com/tutorials/react-jest-enzyme/)
+  - [Advance React Components mocks with Jest and React testing library](https://ericdcobb.medium.com/advanced-react-component-mocks-with-jest-and-react-testing-library-f1ae8838400b)
+  - [Testing in React best practices tips and tricks](https://techblog.commercetools.com/testing-in-react-best-practices-tips-and-tricks-577bb98845cd)
+  
+  ### Redux Toolkit
+  - [Ducks Modular Redux](https://github.com/erikras/ducks-modular-redux)
+  - [Redux Structure Files as Feature Folders or Ducks](https://redux.js.org/style-guide/#structure-files-as-feature-folders-or-ducks)
+  - [Refactoring with Redux Toolkit Cheatsheet](https://www.codecademy.com/learn/paths/front-end-engineer-career-path/tracks/fecp-22-redux/modules/wdcp-22-refactoring-with-redux-toolkit/cheatsheet)
+  - [Redux Toolkit Docu](https://redux-toolkit.js.org/)
+  - [Redux Thunk Docu](https://github.com/reduxjs/redux-thunk)
+  - [Redux Toolkit how configureStore includes redux-thunk by default](https://redux-toolkit.js.org/api/getDefaultMiddleware#getdefaultmiddleware)
+  
+  ### Coding Review
+  - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
+  - [Best practices for peer code review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+  - [How to review someone else code](https://www.youtube.com/watch?v=TlXy_i27N3w)
+  - [Code Review Why Is it important?](https://wishdesk.com/blog/why-code-review-important)
+  - [Article Give and Receiving code reviews](https://discuss.codecademy.com/t/article-giving-and-receiving-code-review)
+  
+  ### Git & Github
+  - [How to contribute in open source](https://github.com/freeCodeCamp/how-to-contribute-to-open-source)
+  - [How to contribute on Github](https://www.dataschool.io/how-to-contribute-on-github/)
+  - [Git branch naming conventions](https://deepsource.io/blog/git-branch-naming-conventions/)
+  - [Github Review - Exploring Workflows](https://www.youtube.com/watch?v=EwWZbyjDs9c&ab_channel=GitHubTraining%26Guides)
+  - [List of Integration Services](https://github.com/ligurio/awesome-ci)
+  - [Guide to Project Management Issues & Projects](https://www.codecademy.com/courses/learn-git/articles/project-management-issues-and-projects)
+  
+  ### SEO
+  - [Smashing Guide Search Engine Optimization](https://www.smashingmagazine.com/smashing-guide-search-engine-optimization/)
+  - [Beginners guide to SEO](https://moz.com/beginners-guide-to-seo)
+  - [SEO Guide](https://www.searchenginejournal.com/seo-guide/)
+  - [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
+  - [SEO Checklist Audit](https://web.dev/lighthouse-seo/)
+  
+  ### Pair Programming
+  - [Collaborative coding tools for remote pair programming](https://www.sitepoint.com/collaborative-coding-tools-for-remote-pair-programming/)
+  
 </details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
@@ -126,7 +222,10 @@
     <h2>GitHub stats</h2>
   </summary>
   <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KeithRussel&count_private=true&show_icons=true&theme=cobalt" alt="Russel A's GitHub Stats" />
+  
+  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=KeithRussel&theme=nightowl&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KeithRussel&layout=compact&theme=nightowl)](https://github.com/anuraghazra/github-readme-stats)
+
   <p>
 </details>
 
