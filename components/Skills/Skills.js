@@ -1,9 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/landingpage/Skills.module.css";
+import styles from "../../styles/landingpage/Skills.module.css";
 import SkillsItem from "./SkillsItem";
 
-const Skills = () => {
+const Skills = ({
+  skills_title,
+  skills_description,
+  tools_title,
+  tools_description,
+}) => {
   return (
     <div id="skills">
       <div className={styles.skills_content}>
@@ -12,12 +17,8 @@ const Skills = () => {
             <div>
               <span>Stacks</span>
             </div>
-            <h2>Tech that I used and familiar with</h2>
-            <p>
-              As a developer, I am heavily focused on using these tech stacks
-              and passionate when comes to learning about the web for
-              self-improvement and interest.
-            </p>
+            <h2>{skills_title}</h2>
+            <p>{skills_description}</p>
             <div className={styles.skill_list}>
               <ul>
                 <SkillsItem
@@ -90,11 +91,9 @@ const Skills = () => {
         <div className={styles.col_1}>
           <div className={styles.tools_detail}>
             <div>
-              <span>Tools & Others</span>
+              <span>{tools_title}</span>
             </div>
-            <p>
-              Here are the tools that I am using when developing a web projects.
-            </p>
+            <p>{tools_description}</p>
             <div className={styles.tools_list}>
               <ul>
                 <SkillsItem

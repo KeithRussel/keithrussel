@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-const SkillsItem = (props) => {
+const SkillsItem = ({ src, alt }) => {
   return (
     <li>
-      <Image src={props.src} alt={props.alt} width={200} height={200} />
+      <Image src={src} alt={alt} width={200} height={200} />
     </li>
   );
 };
