@@ -13,7 +13,7 @@
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="horizontal line" width="100%"/>
 
 ## Top sample functional projects so far
-- Personal Email Tool - [Repo](#Private) | [Live](https://emailtools.onrender.com/)
+- Personal Email Tool - [Private Repo](#Private) | [Live](https://emailtools.onrender.com/)
 - Bulletin Board - [Repo](https://github.com/KeithRussel/bulletinboard) | [Live](http://bulletinboard_bykit.surge.sh/)
 - Student Manager - [Repo](https://github.com/KeithRussel/studentmanager) | [Live](https://intense-depths-40828.herokuapp.com)
 - ShopIt Ecommerce - [Repo](https://github.com/KeithRussel/shopit) | [Live](https://shopitapp.herokuapp.com)
