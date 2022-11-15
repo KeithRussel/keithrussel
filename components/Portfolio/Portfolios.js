@@ -125,6 +125,22 @@ const Portfolios = () => {
       ],
       img: "/uploads/portfolio.png",
     },
+    {
+      title: "Business Listing Site (Work In Progress)",
+      link: "https://coral-app-zz4qu.ondigitalocean.app/",
+      lists: [
+        "NextJS",
+        "ReactJS",
+        "Emotion React-Styled CSS Library",
+        "Strapi for Content Management System",
+        "Sqlite DB for Development",
+        "Postgresql for Production",
+        "Deployed in Digital Ocean",
+      ],
+      img: "/uploads/listingsite-wip.png",
+      alt: "Work In Progress",
+      notice: "This Project is still Work In Progress",
+    },
   ]);
 
   return (
