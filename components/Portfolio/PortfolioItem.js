@@ -24,10 +24,11 @@ const PortfolioItem = ({ item }) => {
           </div>
         </div>
         <div className={styles.col}>
+          {item.notice && <p className={styles.notice}>{item.notice}</p>}
           <Image
             // src="https://picsum.photos/1300/640"
             src={item.img}
-            alt="Project"
+            alt={item.alt}
             width={1300}
             height={440}
             objectFit="contain"
